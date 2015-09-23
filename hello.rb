@@ -12,3 +12,6 @@ get '/hello/:name' do
   "Hello #{params['name']}!"
 end
 
+get '/hi' do
+  erb :hi
+end
