@@ -1,9 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  code = "Hello World!<br>"
-  code += "<%= Time.now %>"
-  erb code
+  erb :index
 end
 
 get '/aiit' do
